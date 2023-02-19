@@ -31,6 +31,7 @@ This is a basic CRUD example API, to show some basic capabilities of the technol
 
 ![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white)
 
 <p style="text-align: right;">(<a href="#readme-top">back to top</a>)</p>
 
