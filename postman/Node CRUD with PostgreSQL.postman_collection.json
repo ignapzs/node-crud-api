@@ -83,7 +83,12 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"name\":\"PEPE\"\n    \"email\":\"mrPepe@pi.com\"\n}"
+					"raw": "{\n    \"name\":\"PEPE\",\n    \"email\":\"mrPepe@pi.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
 				},
 				"url": {
 					"raw": "{{env}}:{{port}}/users/2",
@@ -106,7 +111,12 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"name\":\"pepito\"\n    \"email\":\"pepito@pi.com\"\n}"
+					"raw": "{\n    \"name\":\"pepito\",\n    \"email\":\"pepito@pi.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
 				},
 				"url": {
 					"raw": "{{env}}:{{port}}/users",
