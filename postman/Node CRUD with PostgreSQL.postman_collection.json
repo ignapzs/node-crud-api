@@ -1,0 +1,125 @@
+{
+	"info": {
+		"_postman_id": "b20db8ed-eb12-4c0d-9ab6-f266fbafc497",
+		"name": "Node CRUD with PostgreSQL",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{env}}:{{port}}",
+					"host": [
+						"{{env}}"
+					],
+					"port": "{{port}}"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{env}}:{{port}}/users",
+					"host": [
+						"{{env}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User with ID 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{env}}:{{port}}/users/2",
+					"host": [
+						"{{env}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"users",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete User with ID 3",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{env}}:{{port}}/users/3",
+					"host": [
+						"{{env}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"users",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update User with ID 2",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\":\"PEPE\"\n    \"email\":\"mrPepe@pi.com\"\n}"
+				},
+				"url": {
+					"raw": "{{env}}:{{port}}/users/2",
+					"host": [
+						"{{env}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"users",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Creating demo user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\":\"pepito\"\n    \"email\":\"pepito@pi.com\"\n}"
+				},
+				"url": {
+					"raw": "{{env}}:{{port}}/users",
+					"host": [
+						"{{env}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
