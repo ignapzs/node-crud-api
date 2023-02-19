@@ -78,7 +78,7 @@ exports.deleteUser = (req, res) => {
       }
     });
   })
-  .then(result => {
+  .then(() => {
     res.status(200).json({ message: 'User deleted!' });
   })
   .catch(err => console.log(err));
