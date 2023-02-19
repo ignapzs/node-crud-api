@@ -20,7 +20,6 @@ Node CRUD API
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#license">License</a></li>
   </ol>
 </details>
 
@@ -37,7 +36,6 @@ This is a basic CRUD example API, to show some basic capabilities of the technol
 
 ## Getting Started
 
-TODO
 ### Prerequisites
 
 
@@ -48,18 +46,33 @@ TODO
 
 ### Installation
 
-TODO
+Clone this repo, and just let your favourite IDE open the downloaded project.
 
 <p style="text-align: right;">(<a href="#readme-top">back to top</a>)</p>
 
 ## Usage
 
-TODO
+Just build the docker image, and you could launch it with Postman [suite](postman/Node%20CRUD%20with%20PostgreSQL.postman_collection.json) / [environment](postman/Node%20CRUD%20-%20Local.postman_environment.json) provided.
 
-<p style="text-align: right;">(<a href="#readme-top">back to top</a>)</p>
+### Docker
+To build the Docker image:
+```console
+docker compose build
+```
+After that, we could start the application:
+```console
+docker compose up
+```
 
-## License
+And to stop it
+```console
+docker compose down
+```
 
-TODO
+You can remove stopped containers using the command
+```console
+docker container prune
+```
+
 
 <p style="text-align: right;">(<a href="#readme-top">back to top</a>)</p>
